@@ -1,0 +1,106 @@
+/*Universal Syles*/
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  line-height: 1;
+}
+
+/*Header*/
+
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.desktopNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo .title {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.title span {
+  padding-left: 0.15rem;
+}
+
+desktopNav nav {
+  display: flex;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.desktopNav nav ul {
+  display: flex;
+}
+
+.desktopNav nav ul li {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Banner*/
+
+banner {
+  display: flex;
+  width: 100%;
+  background-color: #c2c2c2;
+}
+
+.bannerImg {
+  width: 60%;
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.bannerImg img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+banner .learn {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  padding-left: 2.5rem;
+}
+
+.learn .headline {
+  line-height: 1;
+}
+
+.learn .headline h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 0.9;
+}
+
+.learn .headline h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 1.25rem;
+}
