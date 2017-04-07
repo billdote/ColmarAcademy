@@ -11,6 +11,16 @@ body {
 
 /*Header*/
 
+.col1 {
+  color: #0072ab;
+  font-weight: 600;
+}
+
+.col2 {
+  opacity: 0.5;
+  font-weight: 500;
+}
+
 header {
   background-color: #fff;
   display: flex;
@@ -78,6 +88,7 @@ banner {
   display: flex;
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 
 banner .learn {
@@ -85,13 +96,14 @@ banner .learn {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 2.5rem;
+  padding-left: 3.5rem;
 }
 
 .learn .headline h1 {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.2;
+  opacity: 0.75;
 }
 
 .learn .headline h3 {
@@ -99,16 +111,27 @@ banner .learn {
   font-weight: 500;
   padding-top: 1.25rem;
   line-height: 1.1;
+  opacity: 0.75;
 }
 
-.learn .startBtn {
+ .startBtn {
   display: flex;
   justify-content: center;
   background-color: #000;
+  align-items: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin: 2rem 5.5rem;
   width: 8rem;
   border-radius: 10px;
 }
 
 /*Information*/
+
+.information {
+  display: flex;
+  background-color: #fff;
+}
+
+.infoMain img {
+  width: 50%;
+}
