@@ -44,7 +44,7 @@ header {
   padding-left: 0.15rem;
 }
 
-desktopNav nav {
+.desktopNav nav {
   display: flex;
   align-items: center;
   padding-right: 1.5rem;
@@ -54,7 +54,7 @@ desktopNav nav {
   display: flex;
 }
 
-.desktopNav nav ul li {
+.desktopNav li {
   padding-left: 1rem;
 }
 
@@ -66,12 +66,11 @@ ul {
 
 banner {
   display: flex;
-  width: 100%;
   background-color: #c2c2c2;
 }
 
 .bannerImg {
-  width: 60%;
+  width: 50%;
   padding: 2rem 2.5rem 2rem 1.5rem;
 }
 
@@ -82,25 +81,34 @@ banner {
 }
 
 banner .learn {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: center;
-  flex-direction: center;
+  flex-direction: column;
   padding-left: 2.5rem;
 }
 
-.learn .headline {
-  line-height: 1;
-}
-
 .learn .headline h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 800;
-  line-height: 0.9;
+  line-height: 1.2;
 }
 
 .learn .headline h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 500;
   padding-top: 1.25rem;
+  line-height: 1.1;
 }
+
+.learn .startBtn {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 8rem;
+  border-radius: 10px;
+}
+
+/*Information*/
