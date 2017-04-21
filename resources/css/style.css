@@ -230,6 +230,7 @@ banner .learn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f1f1f1;
 }
 
 .majors.container h2 {
@@ -246,10 +247,13 @@ banner .learn {
 .course {
   width: 25%;
   margin: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .course img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .course .description {
@@ -328,7 +332,7 @@ banner .learn {
 
 .thesis-image img {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .thesis-article .description {
@@ -349,7 +353,7 @@ banner .learn {
 /*Footer*/
 
 footer {
-  font-family: "Roboto+Slab", serif;
+  font-family: "Source+Sans+Pro", sans-serif;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid lightgrey;
