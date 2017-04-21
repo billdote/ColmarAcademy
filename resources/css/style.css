@@ -9,21 +9,46 @@ body {
   line-height: 1;
 }
 
+a {
+  color: #0072ab;
+}
+
 h2 {
   font-size: 2.75rem;
   font-weight: 900;
+}
+
+.description h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #696969;
+}
+
+.description span {
+  font-family: "Roboto+Slab", serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+}
+
+.description p {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
 /*Header*/
 
 .col1 {
   color: #0072ab;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .col2 {
   opacity: 0.4;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 header {
@@ -113,6 +138,7 @@ banner .learn {
   font-weight: 800;
   line-height: 1.2;
   opacity: 0.75;
+  color: #009CE8;
 }
 
 .learn .headline h3 {
@@ -129,8 +155,7 @@ banner .learn {
   background-color: #000;
   align-items: center;
   padding: 1.25rem 0;
-  /*margin-top: 2rem;
-  width: 8rem;*/
+  margin-top: 2rem;
 }
 
 /*Information*/
@@ -176,6 +201,7 @@ banner .learn {
 .mainInfo span {
   font-family: "Roboto+Slab", serif;
   font-size: 0.95rem;
+  color: #5d5d5d;
 }
 
 .list.container {
@@ -204,18 +230,18 @@ banner .learn {
   padding: 1rem;
 }
 
-.description h4 {
+/*.description h4 {
   font-size: 2rem;
   font-weight: bold;
   display: inline-block;
-}
+}*/
 
-.description p {
+/*.description p {
   font-family: "Lora", serif;
   font-weight: 400;
   padding: 0.5rem 0 0.5rem 0;
   line-height: 1.3;
-}
+}*/
 
 .articleList .description {
   display: flex;
@@ -236,6 +262,7 @@ banner .learn {
 }
 
 .majors.container h2 {
+  color: #009CE8;
   padding: 2rem 0;
 }
 
@@ -271,12 +298,12 @@ banner .learn {
   line-height: 1.2;
 }
 
-.description h4 {
+/*.description h4 {
   font-size: 2rem;
   font-weight: bold;
-}
+}*/
 
-.description span {
+/*.description span {
   font-family: "Roboto+Slab", serif;
   font-weight: 400;
   font-size: 1.25rem;
@@ -290,7 +317,7 @@ banner .learn {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.3;
-}
+}*/
 
 /*Thesis*/
 .thesis.container {
