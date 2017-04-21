@@ -84,7 +84,7 @@ ul {
 
 banner {
   display: flex;
-  background-color: #c2c2c2;
+  background-color: #f1f1f1;
 }
 
 .bannerImg {
@@ -259,15 +259,15 @@ banner .learn {
   line-height: 1.2;
 }
 
+.description h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .description span {
   font-weight: 400;
   font-size: 1.25rem;
   padding: 0.5rem 0;
-}
-
-.description h4 {
-  font-size: 2rem;
-  font-weight: bold;
 }
 
 .description p {
@@ -277,6 +277,67 @@ banner .learn {
   line-height: 1.3;
 }
 
+/*Thesis*/
+.thesis.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis h2 {
+  padding: 2rem 0;
+}
+
+.exhibit {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+.exhibit .video {
+  width: 60%;
+  margin: 0 1rem 1rem 1.5rem;
+}
+
+.video video {
+  width: 100%;
+}
+
+.exhibit .thesis-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.thesis-article {
+  display: flex;
+  width: 100%;
+}
+
+.thesis-image {
+  width: 35%;
+  padding: 1rem;
+}
+
+.thesis-image img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.thesis-article .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesis-article .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4;
+  width: 65%;
+  padding-left: 0.6rem;
+}
 
 /*Footer*/
 
