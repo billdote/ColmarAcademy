@@ -127,9 +127,9 @@ banner .learn {
   justify-content: center;
   background-color: #000;
   align-items: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  width: 8rem;
+  padding: 1.25rem 0;
+  /*margin-top: 2rem;
+  width: 8rem;*/
 }
 
 /*Information*/
