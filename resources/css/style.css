@@ -10,8 +10,8 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /*Header*/
@@ -218,6 +218,66 @@ banner .learn {
   padding-left: 0.6rem;
 }
 
+/*Courses*/
+
+.majors.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.majors.container h2 {
+  padding: 2rem 0;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.course {
+  width: 25%;
+  margin: 1rem;
+}
+
+.course img {
+  width: 100%;
+}
+
+.course .description {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+.course .description h4 {
+  padding-bottom: 0.5rem;
+}
+
+.course .description p {
+  width: 90%;
+  line-height: 1.2;
+}
+
+.description span {
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+}
+
+.description h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description p {
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+
 /*Footer*/
 
 footer {
@@ -231,4 +291,5 @@ footer {
 
 .legal a {
   padding-left: 0.5rem;
+  text-decoration: none;
 }
