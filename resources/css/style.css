@@ -187,13 +187,10 @@ banner .learn {
   display: flex;
   justify-content: center;
   background-color: #64a8a6;
-  /*align-items: center;*/
   padding: 1.25rem 0;
   margin-top: 2rem;
   font-size: 1.75rem;
-  /*border: 2px solid #696969;*/
   width: 70%;
-  /*box-shadow: 0px 4px 10px rgba(0,0,0,0.9);*/
   border-radius: 6px;
   text-shadow: rgba(0,0,0,0.5) 0px -1px 0px;
   font-weight: 700;
@@ -207,11 +204,6 @@ banner .learn {
   font-weight: bold;
   text-decoration: none;
 }
-
-/*.startBtn:hover {
-  transition: all 100ms ease-in-out;
-  transform: scale(1.03);
-}*/
 
 .startBtn:hover {
 	background-color: #73c2c0;
@@ -403,7 +395,6 @@ banner .learn {
 .articleImages .mobile {
   display: block;
 }
-
 
 .description a {
   text-decoration: none;
