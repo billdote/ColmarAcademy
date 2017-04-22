@@ -101,6 +101,11 @@ nav a {
   text-decoration: none;
 }
 
+nav li:hover {
+  transition: all 100ms ease-in-out;
+  transform: scale(1.02);
+}
+
 ul {
   list-style: none;
 }
@@ -109,7 +114,7 @@ ul {
 
 banner {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: #3C3C3C;
 }
 
 .bannerImg {
@@ -126,7 +131,7 @@ banner {
 }
 
 banner .learn {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -134,35 +139,49 @@ banner .learn {
 }
 
 .learn .headline h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 1.2;
-  opacity: 0.75;
-  color: #009CE8;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 0.9;
+  color: #fff;
 }
 
 .learn .headline h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 500;
   padding-top: 1.25rem;
-  line-height: 1.1;
-  opacity: 0.75;
+  opacity: 0.90;
+  color: #F5F5F5;
 }
 
  .startBtn {
   display: flex;
   justify-content: center;
-  background-color: #000;
+  background-color: #fff;
   align-items: center;
   padding: 1.25rem 0;
   margin-top: 2rem;
+  font-size: 1.2rem;
+  border: 2px solid #696969;
+  width: 70%;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.9);
+}
+
+.startBtn a {
+  color: #F72F6D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.startBtn:hover {
+  transition: all 100ms ease-in-out;
+  transform: scale(1.03);
 }
 
 /*Information*/
 
 .information {
   display: flex;
-  background-color: #fff;
+  background-color: #FAFAFA;
 }
 
 .information .main {
@@ -185,6 +204,7 @@ banner .learn {
 .mainInfo h2 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
+  color: #3C3C3C;
 }
 
 .mainInfo h4 {
@@ -252,17 +272,22 @@ banner .learn {
   padding-left: 0.6rem;
 }
 
+.article:hover {
+  background-color: #C4D8E2;
+  transition: background-color 0.6s ease-in-out;
+}
+
 /*Courses*/
 
 .majors {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #3C3C3C;
 }
 
 .majors.container h2 {
-  color: #009CE8;
+  color: #fff;
   padding: 2rem 0;
 }
 
@@ -278,6 +303,13 @@ banner .learn {
   margin: 1rem;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.course:hover {
+  box-shadow: 0px 0px 1px #000000;
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.05);
 }
 
 .course img {
@@ -320,20 +352,23 @@ banner .learn {
 }*/
 
 /*Thesis*/
+
 .thesis.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }
 
 .thesis h2 {
   padding: 2rem 0;
+  color: #3C3C3C;
 }
 
 .exhibit {
   display: flex;
   width: 100%;
-  background-color: #fff;
+  /*background-color: #FAFAFA;*/
 }
 
 .exhibit .video {
@@ -380,6 +415,10 @@ banner .learn {
   line-height: 1.4;
   width: 65%;
   padding-left: 0.6rem;
+}
+
+.highlighted {
+  background-color: #F5F5F5;
 }
 
 /*Footer*/
