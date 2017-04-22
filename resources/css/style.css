@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #0072ab;
+  color: #64a8a6;
 }
 
 h2 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 .col1 {
-  color: #0072ab;
+  color: #64a8a6;
   font-weight: 500;
 }
 
@@ -186,25 +186,39 @@ banner .learn {
  .startBtn {
   display: flex;
   justify-content: center;
-  background-color: #fff;
-  align-items: center;
+  background-color: #64a8a6;
+  /*align-items: center;*/
   padding: 1.25rem 0;
   margin-top: 2rem;
-  font-size: 1.2rem;
-  border: 2px solid #696969;
+  font-size: 1.75rem;
+  /*border: 2px solid #696969;*/
   width: 70%;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.9);
+  /*box-shadow: 0px 4px 10px rgba(0,0,0,0.9);*/
+  border-radius: 6px;
+  text-shadow: rgba(0,0,0,0.5) 0px -1px 0px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 0px 1px #4e8381 inset, 0px 0px 0px 2px #74b6b4 inset, 0px 4px 0px 0px #4a7c7b, 0px 5px 0px 0px #355655, 0px 8px 0px 0px rgba(0,0,0,.15);
 }
 
 .startBtn a {
-  color: #F72F6D;
+  color: #dafffe;
   font-weight: bold;
   text-decoration: none;
 }
 
-.startBtn:hover {
+/*.startBtn:hover {
   transition: all 100ms ease-in-out;
   transform: scale(1.03);
+}*/
+
+.startBtn:hover {
+	background-color: #73c2c0;
+}
+.startBtn:active {
+	background-color: #5a9896;
+	box-shadow: 0px 0px 0px 1px #589391 inset, 0px 0px 0px 2px #65a9a7 inset, 0px 1px 0px 0px #355655, 0px 3px 0px 0px rgba(0,0,0,.15);
 }
 
 /*Banner Mobile*/
@@ -291,7 +305,7 @@ banner .learn {
 .mainInfo h2 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-  color: #3C3C3C;
+  color: #e65440;
 }
 
 .mainInfo p {
@@ -440,6 +454,10 @@ banner .learn {
   border-radius: 8px 8px 0 0;
 }
 
+.description a {
+  color: #0072ab;
+}
+
 .course .description {
   padding: 1rem 0 1.5rem 1rem;
 }
@@ -559,6 +577,8 @@ banner .learn {
   background-color: #F5F5F5;
 }
 
+/*Thesis Mobile*/
+
 @media only screen and (max-width: 895px) {
 .exhibit .thesisList {
   display: none;
@@ -590,7 +610,10 @@ footer {
 .legal a {
   padding-left: 0.5rem;
   text-decoration: none;
+  color: #0072ab;
 }
+
+/*Footer Mobile*/
 
 @media only screen and (max-width: 760px) {
 footer .legal {
