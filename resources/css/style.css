@@ -114,7 +114,7 @@ ul {
   list-style: none;
 }
 
-/*Mobile*/
+/*Header Mobile*/
 
 @media (max-width: 760px) {
 .desktopNav {
@@ -207,7 +207,7 @@ banner .learn {
   transform: scale(1.03);
 }
 
-/*Mobile*/
+/*Banner Mobile*/
 
 @media (max-width: 1000px) {
 banner {
@@ -345,7 +345,7 @@ banner .learn {
   transition: background-color 0.6s ease-in-out;
 }
 
-/*Mobile*/
+/*Information Mobile*/
 
 @media (max-width: 780px) {
 .main {
@@ -453,7 +453,7 @@ banner .learn {
   line-height: 1.2;
 }
 
-/*Mobile*/
+/*Courses Mobile*/
 
 @media (max-width: 895px) {
 .courses {
