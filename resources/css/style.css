@@ -494,8 +494,8 @@ banner .learn {
 
 .mobileCourse h4 {
   font-size: 1.25rem;
-  color: #F72F6D;
-  background-color: #fff;
+  color: #fff;
+  background-color: #e65440;
   padding: 1rem 0 1rem 1.5rem;
   border-radius: 10px;
   transition: color 350ms ease-in-out 100ms;
@@ -503,7 +503,7 @@ banner .learn {
 
 .mobileCourse h4:hover {
   color: #fff;
-  background-color: #F72F6D;
+  background-color: #bb3241;
 }
 }
 
@@ -518,7 +518,7 @@ banner .learn {
 
 .thesis h2 {
   padding: 2rem 0;
-  color: #3C3C3C;
+  color: #2c3e50;
 }
 
 .exhibit {
