@@ -117,27 +117,27 @@ ul {
 /*Header Mobile*/
 
 @media (max-width: 760px) {
-.desktopNav {
-  display: none;
-}
+  .desktopNav {
+    display: none;
+  }
 
-.mobileNav {
-  display: flex;
-  width: 100%;
-}
+  .mobileNav {
+    display: flex;
+    width: 100%;
+  }
 
-.mobileNav nav {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
+  .mobileNav nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 
-.mobileNav nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
+  .mobileNav nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 
 /*Banner*/
@@ -216,54 +216,54 @@ banner .learn {
 /*Banner Mobile*/
 
 @media (max-width: 1000px) {
-banner {
-  flex-wrap: wrap;
-}
+  banner {
+    flex-wrap: wrap;
+  }
 
-.bannerImg {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+  .bannerImg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-.bannerImg img {
-  border-radius: 0px;
-  box-shadow: 0 0 0;
-}
+  .bannerImg img {
+    border-radius: 0px;
+    box-shadow: 0 0 0;
+  }
 
-banner .learn {
-  width: 90%;
-  align-items: center;
-  padding-left: 28px;
-}
+  banner .learn {
+    width: 90%;
+    align-items: center;
+    padding-left: 28px;
+  }
 
-.learn .headline {
-  width: 90%;
-  align-items: center;
-}
+  .learn .headline {
+    width: 90%;
+    align-items: center;
+  }
 
-.learn .headline h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 0.9;
-  padding: 1rem 0;
-}
+  .learn .headline h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 0.9;
+    padding: 1rem 0;
+  }
 
-.learn .headline h3 {
-  font-size: 1.75rem;
-  font-weight: 500;
-  padding: 0;
-}
+  .learn .headline h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: 0;
+  }
 
-.learn .startBtn {
-  width: 50%;
-  margin: 1.5rem 0 2rem 0;
-}
+  .learn .startBtn {
+    width: 50%;
+    margin: 1.5rem 0 2rem 0;
+  }
 
-.learn .startBtn a {
-  font-weight: 500;
-  font-size: 1.25rem;
-}
+  .learn .startBtn a {
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
 }
 
 /*Information*/
@@ -346,60 +346,62 @@ banner .learn {
   padding-left: 0.6rem;
 }
 
-.article:hover {
-  background-color: #C4D8E2;
-  transition: background-color 0.6s ease-in-out;
-}
-
 /*Information Mobile*/
 
+@media screen and (min-width: 790px) {
+  .article:hover {
+    background-color: #C4D8E2;
+    transition: background-color 0.6s ease-in-out;
+  }
+}
+
 @media (max-width: 780px) {
-.main {
-  display: none;
-}
+  .main {
+    display: none;
+  }
 
-.article:hover {
-  none;
-}
+  .article:hover {
+    none;
+  }
 
-.list.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 2rem;
-  padding-top: 0;
-  border: none;
-}
+  .list.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 0;
+    border: none;
+  }
 
-.articleList {
-  margin: 1rem;
-}
+  .articleList {
+    margin: 1rem;
+  }
 
-.articleList .article {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0;
-  border-bottom: 1px solid lightgrey;
-}
+  .articleList .article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid lightgrey;
+  }
 
-.articleImages {
-  width: 100%;
-  padding: 1rem 0;
-}
+  .articleImages {
+    width: 100%;
+    padding: 1rem 0;
+  }
 
-.articleImages .desktop {
-  display: none;
-}
+  .articleImages .desktop {
+    display: none;
+  }
 
-.articleImages .mobile {
-  display: block;
-}
+  .articleImages .mobile {
+    display: block;
+  }
 
-.description a {
-  text-decoration: none;
-  padding-bottom: 10px;
-}
+  .description a {
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
 }
 
 /*Courses*/
@@ -465,37 +467,37 @@ banner .learn {
 /*Courses Mobile*/
 
 @media (max-width: 895px) {
-.courses {
-  display: none;
-}
+  .courses {
+    display: none;
+  }
 
-.majors {
-  padding-bottom: 2rem;
-}
+  .majors {
+    padding-bottom: 2rem;
+  }
 
-.mobileCourses {
-  display: block;
-  width: 90%;
-}
+  .mobileCourses {
+    display: block;
+    width: 90%;
+  }
 
-.mobileCourse {
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
+  .mobileCourse {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
 
-.mobileCourse h4 {
-  font-size: 1.25rem;
-  color: #fff;
-  background-color: #e65440;
-  padding: 1rem 0 1rem 1.5rem;
-  border-radius: 10px;
-  transition: color 350ms ease-in-out 100ms;
-}
+  .mobileCourse h4 {
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #e65440;
+    padding: 1rem 0 1rem 1.5rem;
+    border-radius: 10px;
+    transition: color 350ms ease-in-out 100ms;
+  }
 
-.mobileCourse h4:hover {
-  color: #fff;
-  background-color: #bb3241;
-}
+  .mobileCourse h4:hover {
+    color: #fff;
+    background-color: #bb3241;
+  }
 }
 
 /*Thesis*/
@@ -571,19 +573,19 @@ banner .learn {
 /*Thesis Mobile*/
 
 @media only screen and (max-width: 895px) {
-.exhibit .thesisList {
-  display: none;
-}
+  .exhibit .thesisList {
+    display: none;
+  }
 
-.exhibit .video {
-  width: 100%;
-  margin: 0;
-  margin-bottom: 1.5rem;
-}
+  .exhibit .video {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
 
-.video .description {
-  display: none;
-}
+  .video .description {
+    display: none;
+  }
 }
 
 /*Footer*/
@@ -607,17 +609,17 @@ footer {
 /*Footer Mobile*/
 
 @media only screen and (max-width: 760px) {
-footer .legal {
-  display: none;
-}
+  footer .legal {
+    display: none;
+  }
 
-footer {
-  display: block;
-  font-size: 0.75rem;
-  padding: 1rem 0;
-}
+  footer {
+    display: block;
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
 
-footer p {
-  text-align: center;
-}
+  footer p {
+    text-align: center;
+  }
 }
