@@ -403,7 +403,7 @@ banner .learn {
   display: none;
 }
 
-.majors {
+.majors.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -518,35 +518,35 @@ banner .learn {
   width: 100%;
 }
 
-.exhibit .thesis-list {
+.exhibit .thesisList {
   display: flex;
   flex-direction: column;
   width: 40%;
 }
 
-.thesis-article {
+.thesisArticle {
   display: flex;
   width: 100%;
 }
 
-.thesis-image {
+.thesisImage {
   width: 35%;
   padding: 1rem;
 }
 
-.thesis-image img {
+.thesisImage img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.thesis-article .description {
+.thesisArticle .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.thesis-article .description {
+.thesisArticle .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -557,6 +557,22 @@ banner .learn {
 
 .highlighted {
   background-color: #F5F5F5;
+}
+
+@media only screen and (max-width: 895px) {
+.exhibit .thesisList {
+  display: none;
+}
+
+.exhibit .video {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.video .description {
+  display: none;
+}
 }
 
 /*Footer*/
@@ -574,4 +590,20 @@ footer {
 .legal a {
   padding-left: 0.5rem;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 760px) {
+footer .legal {
+  display: none;
+}
+
+footer {
+  display: block;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+}
+
+footer p {
+  text-align: center;
+}
 }
